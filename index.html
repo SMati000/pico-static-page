@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                margin-left: 7%;
+                margin-right: 7%;
+                margin-top: 0%;
+            }
+
+            header, footer {
+                background: lightgray;
+                height: auto;
+                overflow: hidden;
+                width: 100%;
+            }
+
+            #nav-div {
+                margin-right: 10px;
+                float: left;
+                text-align: center;
+            }
+
+            #logo {
+                display: block;
+                margin: auto;
+                padding-top: 5px;
+            }
+            
+            #nav-title {
+                display: block;
+                margin: 5px;
+                font-size: 20px;
+            }
+
+            nav ul {
+                list-style: none;
+            }
+
+            nav ul li {
+                float: left;
+                margin: 5px;
+                font-size: 20px;
+            }
+
+            .content-wrapper {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            aside {
+                padding-left: 20px;
+            }
+        </style>
+
+        <title>General Pico</title>
+    </head>
+    <body>
+        <header>
+            <div id="nav-div">
+                <a href="index.html"><img id="logo" src="resources/logo.jpg" alt="Logo de la Página" title="Logo de la Página"></a>
+                <b id="nav-title">General Pico Landpage</b>
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="club-atl-cult.html">Club Atlético y Cultural Argentino</a></li>
+                    <li><a href="pico-futbol.html">Pico Fútbol Club</a></li>
+                    <li><a href="sportivo-independiente.html">Club Sportivo Independiente</a></li>
+                    <li><a href="costa-brava.html">Costa Brava</a></li>
+                    <li><a href="ferro-oeste.html">Ferro Carril Oeste</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1 style="clear: both; text-align: center; padding-top: 20px;">General Pico</h1>
+
+        <div class="content-wrapper">
+            <div>
+                <section style="text-align: justify;">
+                    <p style="font-size: 20px; margin: 0%;">
+                        La ciudad de General Pico se destaca por poseer un completo centro comercial, Zona Franca, Parque Industrial, 
+                        Aeropuerto Internacional de Cargas, facultades, clubes, canchas de golf, autódromo y velódromo. 
+                        La ciudad se articula como base de servicios de localidades de hasta 150km de distancia. Cuenta con más de 600 
+                        plazas hoteleras, múltiples salones de eventos y convenciones, restaurantes y confiterias que ofrecen diferentes 
+                        alternativas al lugareño y al turista.
+                    </p>
+                </section>
+                <br/>
+                <h3>Algunas Secciones</h3>
+                <div style="display: flex;">
+                    <div class="card">
+                        <img src="resources/club.jpg" alt="Avatar" style="width:90%">
+                        <div class="container">
+                          <h4><b>Club</b></h4>
+                          <a href="club-atl-cult.html">Club Atlético y Cultural Argentino</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/pico-futbol.jpg" alt="Avatar" style="width:90%">
+                        <div class="container">
+                          <h4><b>Pico Futbol</b></h4>
+                          <a href="#">Pico Fútbol Club</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/independiente.jpg" alt="Avatar" style="width:90%">
+                        <div class="container">
+                          <h4><b>Independiente</b></h4>
+                          <a href="#">Club Sportivo Independiente</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/costa-brava.jpg" alt="Avatar" style="width:90%">
+                        <div class="container">
+                          <h4><b>Costa Brava</b></h4>
+                          <a href="#">Club Atletico Costa Brava</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="resources/ferro.jpg" alt="Avatar" style="width:90%">
+                        <div class="container">
+                          <h4><b>Ferro</b></h4>
+                          <a href="#">Ferro Carril Oeste</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <aside title="Información adicional">
+                <img src="resources/first-see.jpg" style="max-width: 100%;">
+            </aside>
+        </div>
+
+        <br/>
+        <footer>
+            <p style="text-align: center;">Práctica Programación Web UNLPam</p>
+        </footer>
+    </body>
+</html>
