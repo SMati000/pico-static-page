@@ -15,6 +15,10 @@
                 width: 100%;
             }
 
+            footer {
+                padding: 5px;
+            }
+
             #nav-div {
                 margin-right: 10px;
                 float: left;
@@ -31,6 +35,7 @@
                 display: block;
                 margin: 5px;
                 font-size: 20px;
+                text-shadow: 1px 1px 5px gray;
             }
 
             nav ul {
@@ -43,9 +48,31 @@
                 font-size: 20px;
             }
 
+            nav ul li a {
+                padding: 10px;
+                border-radius: 4px;
+            }
+
+            nav ul li a:hover {
+                background-color: rgb(197, 197, 197);
+                color: rgb(3, 0, 157);
+            }
+
             .content-wrapper {
                 display: flex;
                 justify-content: space-between;
+            }
+
+            .card {
+                padding: 10px;
+            }
+
+            .card img {
+                max-width: 90%;
+            }
+
+            .card:hover {
+                background-color: rgb(238, 238, 238);
             }
 
             aside {
@@ -87,39 +114,39 @@
                         amplia variedad de actividades para desarrollar desde temprana edad.
                     </p>
                 </section>
-                <br/>
-                <h3>Algunas Secciones</h3>
+                <hr/>
+                <h2>Algunas Secciones</h2>
                 <div style="display: flex;">
                     <div class="card">
-                        <img src="resources/club.jpg" alt="Avatar" style="width:90%">
+                        <img src="resources/club.jpg" alt="Avatar">
                         <div class="container">
                           <h4><b>Club A&C Argentino</b></h4>
                           <a href="club-atl-cult.html">Club Atlético y Cultural Argentino</a>
                         </div>
                     </div>
                     <div class="card">
-                        <img src="resources/pico-futbol.jpg" alt="Avatar" style="width:90%">
+                        <img src="resources/pico-futbol.jpg" alt="Avatar">
                         <div class="container">
                           <h4><b>Pico Futbol</b></h4>
                           <a href="pico-futbol.html">Pico Fútbol Club</a>
                         </div>
                     </div>
                     <div class="card">
-                        <img src="resources/independiente.jpg" alt="Avatar" style="width:90%">
+                        <img src="resources/independiente.jpg" alt="Avatar">
                         <div class="container">
                           <h4><b>Independiente</b></h4>
                           <a href="sportivo-independiente.html">Club Sportivo Independiente</a>
                         </div>
                     </div>
                     <div class="card">
-                        <img src="resources/costa-brava.jpg" alt="Avatar" style="width:90%">
+                        <img src="resources/costa-brava.jpg" alt="Avatar">
                         <div class="container">
                           <h4><b>Costa Brava</b></h4>
                           <a href="costa-brava.html">Club Atletico Costa Brava</a>
                         </div>
                     </div>
                     <div class="card">
-                        <img src="resources/ferro.jpg" alt="Avatar" style="width:90%">
+                        <img src="resources/ferro.jpg" alt="Avatar">
                         <div class="container">
                           <h4><b>Ferro</b></h4>
                           <a href="ferro-oeste.html">Ferro Carril Oeste</a>
@@ -133,9 +160,13 @@
         </div>
 
         <br/>
-        <footer>
-            <p><a href="index.html" style="float: right; margin-right: 5px;">Inicio</a></p>
-            <p style="text-align: center;">Práctica Programación Web UNLPam</p>
+        <footer style="display: flex; justify-content: space-between; align-items: center;">
+            <p style="width: fit-content; margin: 0 auto;">Práctica Programación Web UNLPam - Matías Schulz</p>
+            <div style="margin: 5px;">
+                <a href="index.html" style="margin-right: 10px;">Inicio</a>
+                <a href="#nav-div" style="margin-right: 5px; padding: 3px; 
+                    text-decoration: none; font-weight: bold;">&#94;</a>
+            </div>
         </footer>
     </body>
 </html>
