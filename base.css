@@ -1,0 +1,64 @@
+body {
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 0%;
+}
+
+header, footer {
+    background: lightgray;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+footer {
+    padding: 5px;
+}
+
+#nav-div {
+    margin-right: 10px;
+    float: left;
+    text-align: center;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    padding-top: 5px;
+}
+
+#nav-title {
+    display: block;
+    margin: 5px;
+    font-size: 20px;
+    text-shadow: 1px 1px 5px gray;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    padding: 10px;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(197, 197, 197);
+    color: rgb(3, 0, 157);
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    padding-left: 20px;
+}
